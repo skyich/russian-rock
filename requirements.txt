@@ -1,0 +1,8 @@
+gensim==3.6.0
+requests==2.19.1
+numba==0.39.0
+pymorphy2==0.8
+numpy==1.15.1
+PyQt5==5.11.3
+beautifulsoup4==4.6.3
+typing==3.6.6
