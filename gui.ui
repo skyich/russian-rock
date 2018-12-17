@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>531</width>
+    <width>404</width>
     <height>683</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Let`s Rock Baby</string>
+   <string>We Will Rock You</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -29,12 +29,43 @@
      </widget>
     </item>
     <item>
-     <widget class="QSpinBox" name="spinBox">
-      <property name="minimum">
-       <number>1</number>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Параметры:</string>
       </property>
-      <property name="maximum">
-       <number>15</number>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QSpinBox" name="spinBox">
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>15</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Количество элементов для вывода</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="text">
+       <string>Выводить информацию о степени сходства</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Фраза для поиска</string>
       </property>
      </widget>
     </item>
@@ -44,7 +75,7 @@
     <item>
      <widget class="QPushButton" name="btnFind">
       <property name="text">
-       <string>WORK PLS</string>
+       <string>Поиск</string>
       </property>
      </widget>
     </item>
